@@ -9,7 +9,7 @@ steps:
   - 'run'
   - 'deploy'
   - '$REPO_NAME'
-  - '--imag 1 e'
+  - '--image'
   - 'us-central1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/$REPO_NAME/$REPO_NAME:$COMMIT_SHA'
   - '--region'
   - 'us-central1'
