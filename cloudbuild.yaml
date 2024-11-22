@@ -15,6 +15,4 @@ steps:
   - 'us-central1'
   - '--allow-unauthenticated'
 options:
-  logging: CLOUD_LOGGING_ONLY  # 또는 NONE
-  # 또는
-  logs_bucket: gs://my-logs-bucket # 빌드 로그를 저장할 Cloud Storage 버킷 이름
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
