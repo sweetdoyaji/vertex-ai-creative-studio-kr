@@ -1,5 +1,4 @@
-
-FROM python:3.9-slim
+FROM python:3.10-slim # Python 3.10 이상 버전으로 변경
 
 WORKDIR /app
 
@@ -8,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "main.p 1 y"]
+CMD ["python", "main.py"]
