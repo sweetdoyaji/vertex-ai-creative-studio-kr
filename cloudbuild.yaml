@@ -13,6 +13,8 @@ steps:
   - 'us-central1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/$REPO_NAME/$REPO_NAME:$COMMIT_SHA'
   - '--region'
   - 'us-central1'
+  - '--port' 
+  - '8080' 
   - '--allow-unauthenticated'
 options:
   default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
