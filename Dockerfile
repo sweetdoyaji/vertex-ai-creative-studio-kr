@@ -1,4 +1,4 @@
-FROM python:3.10-slim # Python 3.10 이상 버전으로 변경
+FROM python:3.10-slim
 
 WORKDIR /app
 
